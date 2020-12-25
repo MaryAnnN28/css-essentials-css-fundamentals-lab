@@ -2,4 +2,88 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  padding: 0; 
 }
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+#nav-links {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #59040C;
+  color: white;
+}
+
+#featured-property {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+img {
+  width: 800px;
+  text-align: center;
+}
+
+p.main-text {
+  text-align: center;
+}
+
+.details {
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 10 0px 0; 
+  box-sizing: border-box;
+  background-color: #59040C;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.inner_details { 
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 5px;
+  height: 100%; 
+  background-color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.inner_details .contact { 
+  width: 25%;
+  height: 100%;
+  margin-right: 10px;
+  margin-left: 20px;
+  display: inline-block; 
+}
+
+.inner_details .correspondence { 
+  width: 25%;
+  height: 100%;
+  margin-right: 5px;
+  display: inline-block; 
+}
+
+.inner_details .links {
+  width: 25%;
+  height: 100%;
+  margin-right: 5px;
+  display: inline-block; 
+
+}
+
+.inner_details .follow {
+  width: 25%;
+  height: 100%;
+  margin-right: 10px;
+  display: inline-block; 
+}
+
